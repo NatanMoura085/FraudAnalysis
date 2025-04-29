@@ -39,7 +39,7 @@ public class FraudAnalysisService {
         String result = response.getBody();
         System.out.println("Análise de Fraude: " + result);
 
-        // Aqui você poderia transformar esse result num DTO e enviar pra outra API ou armazenar
+
     }
 
     private String buildPrompt(FraudRequestDTO fraudRequestDTO) {
